@@ -1,0 +1,23 @@
+# VisualStudioCode
+.vscode/*
+**.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+#
+# OS
+#
+.DS_Store
+
+# build
+artifacts.txt
+cover.out
+coverage.out
+coverage.txt
+local-mcp
+local-mcp-darwin-arm64
+local-mcp-linux-arm64
+trivy.json
