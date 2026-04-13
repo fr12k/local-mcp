@@ -19,6 +19,9 @@ func main() {
 	localmcp := build.NewGoServiceBuild("local-mcp")
 	localmcp.File = "main.go"
 	localmcp.Image = ""
+	localmcp.Properties = map[string]*build.ListValue{
+		"goreleaser": build.NewList("true"),
+	}
 
 	//TODO: adjust the registries to your own container registry
 	build.BuildGroups(

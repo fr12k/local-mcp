@@ -1,6 +1,6 @@
 module github.com/fr12k/local-mcp
 
-go 1.26.2
+go 1.26.1
 
 require (
 	github.com/fr12k/rodwer v0.0.2
