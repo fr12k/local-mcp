@@ -4,7 +4,7 @@ go 1.26.1
 
 require (
 	github.com/fr12k/rodwer v0.0.5
-	github.com/mark3labs/mcp-go v0.57.0
+	github.com/mark3labs/mcp-go v0.58.0
 )
 
 require (
